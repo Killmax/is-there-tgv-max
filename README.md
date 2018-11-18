@@ -10,8 +10,8 @@ The mail delivery system used here is SendGrid. You will need to go on their web
 Moreover, you will need Python3 and two modules called SendGrid-Python and Requests.
 
 ```bash
-pip install sendgrid-python
-pip install requests
+pip3 install sendgrid
+pip3 install requests
 ``` 
 
 You will also need to set three environments variables
