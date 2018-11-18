@@ -26,7 +26,14 @@ SENDGRID_API_KEY="SG..." # The API key coming from your account on Send Grid.
 
 The script must be executed like this:
 ```bash 
-.\script.py <RRCODE CITY FROM (FRPAR, FRLIL, etc.)> <RRCODE CITY TO> <DATE (YYYY-mm-DD)>
+./script.py <RRCODE CITY FROM (FRPAR, FRLIL, etc.)> <RRCODE CITY TO> <DATE (YYYY-mm-DD)>
 ```
 
+The ``RRCODE`` are identifiers which are unique for a station or a city. You can find a complete list [here](https://gist.github.com/freretuc/3346696). Even though you precise a specific station, the API will give all the trips in the city or around.
+
+The ``DATE`` must be in the following format ``2018-12-05``.
+
+## Feedback
+
+Feel free to create an issue if you have any remark or problem.
 
