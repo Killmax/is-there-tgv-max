@@ -1,6 +1,9 @@
 # is-there-tgv-max
 Simple script to get an email with all the TGV Max Train available on a specific day.
 
+UPDATE: This project is not maintained anymore. However, feel free to fork this repository and to update the script with the new API URL from SNCF, which looks like this:
+``https://www.maxjeune-tgvinoui.sncf/api/public/refdata/search-freeplaces-proposals?destination=FRPNO&origin=FRADJ&departureDateTime=2025-06-21T00:00:00.000Z``
+
 To get these information, I'm using here the request from the official website of SNCF (oui.sncf).
 
 ## Installation
